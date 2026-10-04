@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --charcoal: #2d2d2d;
+  --warm: #c9a96e;
+  --light: #f7f5f0;
+  --mid: #8a8a8a;
+}
+
+body { background: var(--light); color: var(--charcoal); }
+
+.btn-gold {
+  background: var(--warm);
+  color: white;
+  padding: 14px 36px;
+  border-radius: 4px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  transition: all 0.2s;
+}
+.btn-gold:hover { opacity: 0.85; transform: translateY(-1px); }
