@@ -50,12 +50,13 @@ export default function Home() {
               { img: "photo-1600573472556-e636c2acda9e", title: "분당 40평 리모델링", tag: "주거 | 내추럴" },
             ].map((item) => (
               <div key={item.title} className="group cursor-pointer">
-                <div
-                  className="h-64 rounded-lg overflow-hidden bg-gray-200 mb-3"
-                  style={{
-                    background: `url('https://images.unsplash.com/${item.img}?w=600&q=80') center/cover`,
-                  }}
-                />
+                <div className="h-64 rounded-lg overflow-hidden bg-gray-200 mb-3">
+                  <img
+                    src={`https://images.unsplash.com/${item.img}?w=600&q=80`}
+                    alt={item.title}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
                 <h3 className="font-bold text-gray-800">{item.title}</h3>
                 <p className="text-sm text-gray-400">{item.tag}</p>
               </div>
