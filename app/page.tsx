@@ -13,8 +13,8 @@ export default function Home() {
             <a href="#process" className="hover:text-gray-900">진행 과정</a>
             <a href="#contact" className="hover:text-gray-900">문의</a>
           </div>
-          <a href="tel:02-9876-5432" className="text-sm font-medium" style={{ color: "var(--warm)" }}>
-            02-9876-5432
+          <a href="#contact" className="text-sm font-medium" style={{ color: "var(--warm)" }}>
+            무료 상담
           </a>
         </div>
       </nav>
@@ -122,7 +122,7 @@ export default function Home() {
           <h2 className="text-2xl sm:text-3xl font-bold mb-4">무료 상담 신청</h2>
           <p className="text-gray-500 mb-8">전화 또는 카카오톡으로 편하게 문의하세요.<br />48시간 내 답변드립니다.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:02-9876-5432" className="btn-gold inline-block text-center">
+            <a href="https://pf.kakao.com/" target="_blank" rel="noopener noreferrer" className="btn-gold inline-block text-center">
               전화 상담
             </a>
             <a
